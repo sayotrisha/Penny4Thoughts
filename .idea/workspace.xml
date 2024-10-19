@@ -4,31 +4,33 @@
     <shared>
       <config />
     </shared>
-    <layouts>
-      <layout url="file://$PROJECT_DIR$/MCO/app/src/main/res/layout/act_login.xml">
-        <config>
-          <theme>@style/Theme.MCO</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/MCO/app/src/main/res/layout/act_signup.xml">
-        <config>
-          <theme>@style/Theme.MCO</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/MCO/app/src/main/res/layout/act_welcome.xml">
-        <config>
-          <theme>@style/Theme.MCO</theme>
-        </config>
-      </layout>
-    </layouts>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c44305f-f678-4750-a95d-ff8030a7bb3e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MCO.zip" beforeDir="false" />
+    <list default="true" id="923965c8-0139-4d2d-9043-9f0b855d97e4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/MCO/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/androidTest/java/com/mobdeve/s12/group4/mco/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MCO/app/src/androidTest/java/com/mobdeve/s12/group4/mco/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MCO/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/java/com/mobdeve/s12/group4/mco/Act2SignUp.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/java/com/mobdeve/s12/group4/mco/Act3LogIn.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/java/com/mobdeve/s12/group4/mco/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MCO/app/src/main/java/com/mobdeve/s12/group4/mco/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/java/com/mobdeve/s12/group4/mco/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/java/com/mobdeve/s12/group4/mco/ui/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/java/com/mobdeve/s12/group4/mco/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/button_border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/img_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/res/layout/act_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/res/layout/act_signup.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/res/layout/act_welcome.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MCO/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MCO/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/MCO/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MCO/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,19 +61,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Tiny-Banana&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Tiny-Banana/Penny4Thoughts.git&quot;,
+    &quot;accountId&quot;: &quot;835c288a-d46e-4631-b2ac-78073ee2ac4e&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="2ndBSKMzYZj82FAOtEycjrH2AOG" />
+  <component name="ProjectId" id="2ndKCBxGEur7yTIpQUVBwS3UpO5" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Android App.MCO.app.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
@@ -79,10 +91,7 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Jomar/Desktop/Penny4Thoughts/MCO/build.gradle.kts",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
+    "last_opened_file_path": "C:/Users/Jomar/Desktop/Penny4Thoughts/MCO",
     "settings.editor.selected.configurable": "AndroidSdkUpdater"
   },
   "keyToStringList": {
@@ -91,11 +100,6 @@
     ]
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Jomar\Desktop\Penny4Thoughts\MCO" />
-    </key>
-  </component>
   <component name="RunManager">
     <configuration name="MCO.app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="MCO.app.main" />
@@ -167,11 +171,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0c44305f-f678-4750-a95d-ff8030a7bb3e" name="Changes" comment="" />
-      <created>1729293071047</created>
+      <changelist id="923965c8-0139-4d2d-9043-9f0b855d97e4" name="Changes" comment="" />
+      <created>1729297382666</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1729293071047</updated>
+      <updated>1729297382666</updated>
     </task>
     <servers />
   </component>
