@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF9DB"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvSignupTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi!"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#5F5F5F"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:background="@android:drawable/edit_text"
+        android:textColor="#5F5F5F"
+        android:layout_below="@id/tvSignupTitle"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/etEmailSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:background="@android:drawable/edit_text"
+        android:textColor="#5F5F5F"
+        android:layout_below="@id/etUsername"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/etPasswordSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@android:drawable/edit_text"
+        android:textColor="#5F5F5F"
+        android:layout_below="@id/etEmailSignup"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#A3BE8C"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/etPasswordSignup" />
+
+</RelativeLayout>
