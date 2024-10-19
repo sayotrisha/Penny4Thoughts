@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home">
+    </item>
+
+    <item
+        android:id="@+id/record"
+        android:title="Records"
+        android:icon="@drawable/ic_receipt">
+    </item>
+
+    <item
+        android:id="@+id/budget"
+        android:title="Budget"
+        android:icon="@drawable/ic_calculator">
+    </item>
+
+    <item
+        android:id="@+id/analysis"
+        android:title="Analysis"
+        android:icon="@drawable/ic_chart">
+    </item>
+
+    <item
+        android:id="@+id/category"
+        android:title="Categories"
+        android:icon="@drawable/ic_tag"
+       >
+    </item>
+</menu>
