@@ -4,7 +4,7 @@
     <selectionStates>
       <SelectionState runConfigName="MCO.app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-10-19T10:33:53.758720500Z">
+        <DropdownSelection timestamp="2024-10-23T17:06:40.443019100Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\Jomar\.android\avd\Pixel_8a_API_35.avd" />
