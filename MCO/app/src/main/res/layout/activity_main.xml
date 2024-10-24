@@ -25,182 +25,37 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/header"
             android:layout_width="match_parent"
-            android:layout_height="140dp"
+            android:layout_height="55dp"
             app:cardBackgroundColor="@color/off_beige"
             app:cardCornerRadius="8dp"
             app:cardElevation="10dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
 
-                <TextView
-                    android:id="@+id/appName"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginTop="16dp"
-                    android:fontFamily="@font/zeyada"
-                    android:text="Penny4Thoughts"
-                    android:textColor="@color/dark_green"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    app:layout_constraintStart_toEndOf="@+id/toolbar"
-                    app:layout_constraintTop_toTopOf="parent" />
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
-                <androidx.appcompat.widget.Toolbar
-                    android:id="@+id/toolbar"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="12dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
-
-                <TextView
-                    android:id="@+id/incomeTitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:fontFamily="@font/poppins_regular"
-                    android:text="Total Income"
-                    android:textColor="@color/dark_green"
-                    android:textSize="12sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.411"
-                    app:layout_constraintStart_toEndOf="@+id/expenseTitle"
-                    app:layout_constraintTop_toTopOf="@+id/expenseTitle" />
-
-                <TextView
-                    android:id="@+id/expenseTitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="80dp"
-                    android:layout_marginTop="16dp"
-                    android:fontFamily="@font/poppins_regular"
-                    android:text="Total Expense"
-                    android:textColor="@color/dark_green"
-                    android:textSize="12sp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/balanceTitle" />
-
-                <TextView
-                    android:id="@+id/expenseCount"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="4dp"
-                    android:fontFamily="@font/poppins_regular"
-                    android:text="0.00"
-                    android:textColor="@color/light_red"
-                    android:textSize="12sp"
-                    app:layout_constraintEnd_toStartOf="@+id/tvP3"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toEndOf="@+id/tvP1"
-                    app:layout_constraintTop_toTopOf="@+id/tvP1" />
-
-                <TextView
-                    android:id="@+id/tvP1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="4dp"
-                    android:fontFamily="@font/poppins_regular"
-                    android:text="₱"
-                    android:textColor="@color/light_red"
-                    android:textSize="12sp"
-                    app:layout_constraintStart_toStartOf="@+id/expenseTitle"
-                    app:layout_constraintTop_toBottomOf="@+id/expenseTitle" />
-
-                <TextView
-                    android:id="@+id/incomeCount"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="4dp"
-                    android:fontFamily="@font/poppins_regular"
-                    android:text="0.00"
-                    android:textColor="@color/light_green"
-                    android:textSize="12sp"
-                    app:layout_constraintStart_toEndOf="@+id/tvP3"
-                    app:layout_constraintTop_toTopOf="@+id/tvP3" />
-
-                <TextView
-                    android:id="@+id/tvP3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="4dp"
-                    android:fontFamily="@font/poppins_regular"
-                    android:text="₱"
-                    android:textColor="@color/light_green"
-                    android:textSize="12sp"
-                    app:layout_constraintStart_toStartOf="@+id/incomeTitle"
-                    app:layout_constraintTop_toBottomOf="@+id/incomeTitle" />
-
-                <TextView
-                    android:id="@+id/balanceTitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="4dp"
-                    android:fontFamily="@font/poppins_regular"
-                    android:text="All Accounts"
-                    android:textColor="@color/dark_green"
-                    android:textSize="14sp"
-                    app:layout_constraintStart_toEndOf="@+id/tvBracket1"
-                    app:layout_constraintTop_toTopOf="@+id/tvBracket1" />
-
-                <TextView
-                    android:id="@+id/tvP2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="4dp"
-                    android:fontFamily="@font/poppins_regular"
-                    android:text="₱"
-                    android:textColor="@color/dark_green"
-                    android:textSize="14sp"
-                    app:layout_constraintStart_toEndOf="@+id/balanceTitle"
-                    app:layout_constraintTop_toTopOf="@+id/balanceTitle" />
-
-                <TextView
-                    android:id="@+id/balanceCount"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="4dp"
-                    android:fontFamily="@font/poppins_regular"
-                    android:text="0.00"
-                    android:textColor="@color/dark_green"
-                    android:textSize="14sp"
-                    app:layout_constraintStart_toEndOf="@+id/tvP2"
-                    app:layout_constraintTop_toTopOf="@+id/tvP2" />
-
-                <TextView
-                    android:id="@+id/tvBracket2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/poppins_regular"
-                    android:text="]"
-                    android:textColor="@color/dark_green"
-                    android:textSize="14sp"
-                    app:layout_constraintStart_toEndOf="@+id/balanceCount"
-                    app:layout_constraintTop_toTopOf="@+id/balanceCount" />
-
-                <TextView
-                    android:id="@+id/tvBracket1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="132dp"
-                    android:layout_marginTop="48dp"
-                    android:fontFamily="@font/poppins_regular"
-                    android:text="["
-                    android:textColor="@color/dark_green"
-                    android:textSize="14sp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/appName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/zeyada"
+                android:text="Penny4Thoughts"
+                android:textColor="@color/dark_green"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/toolbar"
+                app:layout_constraintTop_toTopOf="parent" />
         </androidx.cardview.widget.CardView>
 
         <FrameLayout
@@ -213,7 +68,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/header"
             app:layout_constraintVertical_bias="1.0">
-
         </FrameLayout>
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -233,6 +87,19 @@
             app:menu="@menu/bottom_nav_menu">
 
         </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/addBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="96dp"
+            app:backgroundTint="@color/dark_green"
+            app:layout_constraintBottom_toBottomOf="@+id/bottomNavigationView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/ic_plus"
+            app:tint="@android:color/white" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>
