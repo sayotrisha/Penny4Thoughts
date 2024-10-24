@@ -4,11 +4,13 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomNavigationView.Colored</item>
+        <item name="floatingActionButtonStyle">@style/Widget.MaterialComponents.FloatingActionButton</item>
         <item name="colorPrimary">@color/bg_beige</item>
         <item name="colorAccent">@color/dark_green</item>
         <item name="colorOnPrimary">@color/dark_green</item>
 
     </style>
+
 
     <style name="Theme.MCO" parent="Base.Theme.MCO" />
 </resources>
