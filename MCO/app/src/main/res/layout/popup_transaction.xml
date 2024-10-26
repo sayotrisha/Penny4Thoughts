@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00F5F5DC"
+    android:backgroundTint="#1F0C0C">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="410dp"
+        android:layout_height="200dp"
+        android:background="@color/off_beige" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="410dp"
+        android:layout_height="530dp"
+        android:background="@color/bg_beige"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFDD"
+        android:backgroundTint="#09FFFFFF"
+        android:text="Income"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:text="Transfer"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cancelBtn4"
+        android:layout_width="118dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#FFFFE7"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Savings"
+        android:textSize="16sp"
+        app:cornerRadius="10dp"
+        app:strokeColor="#004D40"
+        app:strokeWidth="1dp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="138dp"></com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cancelBtn5"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#FFFFE7"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Category"
+        android:textSize="16sp"
+        app:cornerRadius="10dp"
+        app:strokeColor="#004D40"
+        app:strokeWidth="1dp"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="138dp"></com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="360dp"
+        android:layout_height="165dp"
+        android:background="#1F0D0A0A"
+        android:backgroundTint="#070202"
+        android:drawableTint="#1F1F03"
+        android:foregroundTint="#F5F5DC"
+        android:hint="Add notes to your diary"
+        android:shadowColor="#F5F5DC"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#1F0D0A0A"
+        android:ems="10"
+        android:hint="₱ 0.00"
+        android:inputType="numberSigned"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:tint="#00FFFFFF"
+        app:srcCompat="@drawable/save_button"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/cancel_button"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/expense_button"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/line_2"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

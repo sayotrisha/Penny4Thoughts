@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_beige">
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:tint="#00FFFFFF"
+        app:srcCompat="@drawable/arrow_back_simple"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="FAQ"
+        android:textColor="@color/dark_green"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/categorymean"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/what_does_budget_mean_"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03FFFFFF"
+        app:srcCompat="@drawable/what_is_a_record"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/how_to_edit_my_diary_"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/how_to_edit_my_expense_"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="467dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/how_to_transfer_money_"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/howtologout"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="646dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

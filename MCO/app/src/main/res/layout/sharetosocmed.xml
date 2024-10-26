@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#00FFFFFF">
+
+    <View
+        android:id="@+id/dimOverlay4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        tools:layout_editor_absoluteX="-32dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <View
+        android:id="@+id/myRectangleView3"
+        android:layout_width="346dp"
+        android:layout_height="338dp"
+        android:background="@drawable/rounded_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cancelBtn3"
+        android:layout_width="118dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#FFFFE7"
+        android:fontFamily="@font/poppins_regular"
+        android:text="CANCEL"
+        android:textSize="16sp"
+        app:cornerRadius="10dp"
+        app:strokeColor="#004D40"
+        app:strokeWidth="1dp"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="429dp"></com.google.android.material.button.MaterialButton>
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="83dp"
+        android:layout_height="81dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        android:tint="#00FFFFFF"
+        app:srcCompat="@drawable/threads"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="86dp"
+        android:layout_height="88dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        android:tint="#00000000"
+        app:srcCompat="@drawable/x"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="83dp"
+        android:layout_height="91dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        android:tint="#00FFFFFF"
+        app:srcCompat="@drawable/fb"
+        tools:layout_editor_absoluteX="296dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="86dp"
+        android:layout_height="83dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/ig"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="302dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

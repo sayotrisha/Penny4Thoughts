@@ -45,6 +45,13 @@
           <theme>@style/Theme.MCO</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/MCO/app/src/main/res/layout/faq.xml">
+        <config>
+          <state>Landscape</state>
+          <night>night</night>
+          <theme>@style/Theme.MCO</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/MCO/app/src/main/res/layout/home_fragment.xml">
         <config>
           <theme>@style/Theme.MCO</theme>
@@ -60,7 +67,22 @@
           <theme>@style/Theme.MCO</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/MCO/app/src/main/res/layout/popup_transaction.xml">
+        <config>
+          <theme>@style/Theme.MCO</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/MCO/app/src/main/res/layout/profile_hamburger_menu.xml">
+        <config>
+          <theme>@style/Theme.MCO</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/MCO/app/src/main/res/layout/records_fragment.xml">
+        <config>
+          <theme>@style/Theme.MCO</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/MCO/app/src/main/res/layout/sharetosocmed.xml">
         <config>
           <theme>@style/Theme.MCO</theme>
         </config>
@@ -87,17 +109,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="923965c8-0139-4d2d-9043-9f0b855d97e4" name="Changes" comment="feat: add navdrawer">
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/arrow_back_simple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/cancel_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/categorymean.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/credit_card_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/expense_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/how_to_edit_my_diary_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/how_to_edit_my_expense_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/how_to_transfer_money_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/howtologout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/ig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/line_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/line_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/notif.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/profile_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/save_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/threads.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/what_does_budget_mean_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/what_is_a_record.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/layout/faq.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/layout/popup_transaction.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/layout/profile_hamburger_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MCO/app/src/main/res/layout/sharetosocmed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/java/com/mobdeve/s12/group4/mco/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MCO/app/src/main/java/com/mobdeve/s12/group4/mco/HomeFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MCO/app/src/main/java/com/mobdeve/s12/group4/mco/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MCO/app/src/main/java/com/mobdeve/s12/group4/mco/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/res/layout/act_welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MCO/app/src/main/res/layout/act_welcome.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MCO/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/res/layout/home_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MCO/app/src/main/res/layout/home_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MCO/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MCO/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/res/drawable-anydpi/ic_plus.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/res/drawable-hdpi/ic_plus.png" beforeDir="false" afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable-hdpi/ic_plus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/res/drawable-mdpi/ic_plus.png" beforeDir="false" afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable-mdpi/ic_plus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/res/drawable-xhdpi/ic_plus.png" beforeDir="false" afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable-xhdpi/ic_plus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCO/app/src/main/res/drawable-xxhdpi/ic_plus.png" beforeDir="false" afterPath="$PROJECT_DIR$/MCO/app/src/main/res/drawable-xxhdpi/ic_plus.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +155,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=797d2c4e)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\Alina\.android\avd\Pixel_7_API_35.avd)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/MCO">
       <ProjectState />
@@ -129,9 +177,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="layoutResourceFile" />
-        <option value="valueResourceFile" />
         <option value="resourceFile" />
+        <option value="valueResourceFile" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -167,25 +215,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Android App.MCO.app.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "automatic__budgeting__layout",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Jomar/AndroidStudioProjects/HelloW2",
-    "settings.editor.selected.configurable": "AndroidSdkUpdater"
-  },
-  "keyToStringList": {
-    "kotlin-gradle-user-dirs": [
-      "C:\\Users\\Jomar\\.gradle"
-    ]
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.MCO.app.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documents/School/Mobile development/Penny4Thoughts&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jomar\Desktop\Penny4Thoughts\MCO\app\src\main\res\drawable" />
@@ -209,6 +252,8 @@
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />

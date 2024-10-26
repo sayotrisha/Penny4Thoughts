@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="button">
+        <item name="android:layout_width">118dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:backgroundTint">#FFFFE7</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

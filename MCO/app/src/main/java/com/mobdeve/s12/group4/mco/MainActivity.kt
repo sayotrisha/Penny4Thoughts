@@ -79,6 +79,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.add_transaction -> {
                     Toast.makeText(this, "Add Transaction clicked", Toast.LENGTH_SHORT).show()
+                    showTransactionPopUp()
                     true
                 }
                 else -> false
@@ -90,6 +91,24 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showNewAccPopUp() {
+        val popupView = layoutInflater.inflate(R.layout.popup_new_account, null)
+        // Create the PopupWindow
+        val popupWindow = PopupWindow(popupView,
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.MATCH_PARENT)
+
+        popupWindow.isFocusable = true;
+        popupWindow.update();
+        popupWindow.showAtLocation(findViewById(R.id.flFragment), Gravity.CENTER, 0, 0)
+
+
+
+        popupView.findViewById<MaterialButton>(R.id.cancelBtn).setOnClickListener {
+            popupWindow.dismiss()
+        }
+    }
+
+    private fun showTransactionPopUp(){
         val popupView = layoutInflater.inflate(R.layout.popup_new_account, null)
         // Create the PopupWindow
         val popupWindow = PopupWindow(popupView,
